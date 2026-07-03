@@ -1,0 +1,13 @@
+portal.ai.gateway {
+    tls internal
+
+    route {
+        @home path /
+        handle @home {
+            root * ./www
+            file_server
+        }
+
+        reverse_proxy localhost:4000
+    }
+}

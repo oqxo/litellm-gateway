@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+
+# Logs
+*.log
+
+# Docker
+*.pid
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Caddy
+Caddyfile.bak
+autosave.json
+
+# LiteLLM
+litellm.log
+
+# PostgreSQL local data (if mounted locally)
+postgres_data/
+
+# IDE
+.vscode/
+.idea/
+
+# Test outputs
+output/
+*.csv
+*.db
+
+# Cache
+.cache/
+.env

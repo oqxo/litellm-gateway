@@ -1,0 +1,11 @@
+model_list:
+  - model_name: spark-nano-5
+    litellm_params:
+      model: openai/gpt-5-nano
+      api_key: os.environ/OPENAI_API_KEY
+
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY
+
+litellm_settings:
+  database_url: os.environ/DATABASE_URL
